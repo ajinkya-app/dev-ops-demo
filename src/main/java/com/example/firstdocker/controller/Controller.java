@@ -15,8 +15,7 @@ public class Controller {
 
 		return "Hello All !! This is First Docker image project !!!!";
 	}
-
-	depl
+	
 	@GetMapping("/hello/{name}")
 	public String getMsg(@PathVariable("name") String name) {
 
